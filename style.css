@@ -10,11 +10,11 @@ body {
   box-sizing: border-box;
 }
 header {
-  height:605px;
+  height: 605px;
   width: 100%;
   background-image: url("images/banner1.png");
   background-repeat: no-repeat;
-  border-radius: 0 0 30% 30% ;
+  border-radius: 0 0 30% 30%;
 }
 .header {
   width: 80%;
@@ -170,6 +170,15 @@ section > p {
   border-radius: 40px;
   border: 3px solid #f2ce6d;
   font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+.text1 > button:hover {
+  background-color: #fd5c21;
+  color: white;
+}
+.text2 > button:hover {
+  background-color: #fd5c21;
+  color: white;
 }
 .text2 {
   width: 100%;
@@ -205,6 +214,7 @@ section > p {
   border-radius: 40px;
   border: 3px solid #f2ce6d;
   font-size: 1.3rem;
+  transition: 0.3s ease;
 }
 .catagory img {
   border-radius: 50%;
