@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  height: auto;
+  width: 100%;
+  background-image: url("images/banner1.png");
+  background-repeat: no-repeat;
+  border-radius: 0 0 30% 30% ;
+}
+.header {
+  width: 80%;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 60px;
+  height: 70px;
+}
+.nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li a {
+  color: white;
+  font-size: 1.1rem;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.4s all;
+}
+.nav ul li a:hover {
+  color: black;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content h1 {
+  color: black;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+}
+.content h4 {
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.content h5 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.content button {
+  display: inline-block;
+  width: 45%;
+  padding: 15px 0px;
+  border-radius: 40px;
+  border: 0;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.3s all;
+}
+.content button:hover {
+  background-color: black;
+  color: white;
+}
+.main-content img {
+  width: 50%;
+}
+section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+section .text {
+  width: auto;
+  display: flex;
+  height: 40px;
+  margin-top: 60px;
+  justify-self: center;
+  align-items: center;
+}
+.text .circle {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-image: url("images/banner2.png");
+}
+.text h2 {
+  color: #2d2e2e;
+  padding: 10px 20px;
+  font-size: 3rem;
+}
+section > p {
+  color: #2d2e2e;
+  display: block;
+  width: 80%;
+  font-size: 1.22rem;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: lighter;
+}
+.catagory {
+  width: 80%;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.text1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.text1 > p {
+  color: #595959;
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+  text-align: left;
+  line-height: 28px;
+}
+.text1 > button {
+  cursor: pointer;
+  color: white;
+  width: 30%;
+  padding: 15px 30px;
+  text-transform: capitalize;
+  background-color: black;
+  border-radius: 40px;
+  border: 3px solid #f2ce6d;
+  font-size: 1.3rem;
+}
+.text2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.text2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.text2 > p {
+  color: #595959;
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+  text-align: left;
+  line-height: 28px;
+}
+.text2 > button {
+  cursor: pointer;
+  color: white;
+  width: 30%;
+  padding: 15px 30px;
+  text-transform: capitalize;
+  background-color: black;
+  border-radius: 40px;
+  border: 3px solid #f2ce6d;
+  font-size: 1.3rem;
+}
+.catagory img {
+  border-radius: 50%;
+  width: 30%;
+  height: 75%;
+  border: 25px solid #f2ce6d;
+  margin-left: 50px;
+}
+.form-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  padding: 30px 20px;
+  border: 8px solid #f2ce6d;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.form input {
+  width: 90%;
+  outline: 0;
+  border: 0;
+  border-bottom: #000 solid 1px;
+  padding: 0 0 10px 0;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+.form-section img {
+  width: 50%;
+  height: auto;
+}
+#form {
+  width: 90%;
+}
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 90%;
+  outline: 0;
+  border: 0;
+  border-bottom: #000 solid 1px;
+  padding: 0 0 10px 0;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+.form > button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  width: 50%;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  background-color: black;
+  border-radius: 40px;
+  font-size: 1.3rem;
+  transition: 0.3s all;
+}
+.form > button:hover {
+  background-color: #fd5c21;
+  color: white;
+}
+span {
+  padding: 0 0 20px 0px;
+  font-size: 1.3rem;
+  color: #f2ce6d;
+  font-weight: 700;
+}
+.img {
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 80px;
+  background-image: url("images/icon_1.png");
+}
+.padding {
+  padding: 10px;
+}
+footer {
+  margin: 0;
+  margin-top: 70px;
+  background-image: url("images/banner2.png");
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text3,
+.text4 {
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text3 > h3 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+.text3 > h2 {
+  text-transform: capitalize;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.text4 > h3 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 500;
+  color: black;
+  font-weight: bolder;
+}
+.text4 > h2 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-size: 3.1rem;
+  font-weight: 700;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.footer {
+  background-image: url("images/cop.jpg");
+  background-repeat: no-repeat;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
