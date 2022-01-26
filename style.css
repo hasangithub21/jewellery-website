@@ -25,7 +25,7 @@ header {
   align-items: center;
 }
 .header img {
-  width: 70px;
+  width: 60px;
   height: 40px;
 }
 .nav {
@@ -57,10 +57,12 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 .content {
+  height:60vh;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
 }
 .content h1 {
@@ -310,6 +312,9 @@ section > p {
 @media (max-width: 850px) {
   section {
     flex-direction: column;
+  }
+  .content h4{
+    text-align: center;
   }
   .catagory-1 > .text1 {
     width: 100%;
@@ -568,7 +573,21 @@ footer {
   .text3,
   .text4 {
     padding: 40px 0;
-  }.text4 > h2 {
+  }
+  .text4 > h2 {
     font-size: 2.3rem;
+  }
+}
+@media (min-width: 1441px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    width: 100vw;
+  }
+  .content {
+    height: min-content;
+    justify-content: flex-start;
   }
 }
