@@ -60,7 +60,7 @@ header {
   margin: 0 auto;
 }
 .content {
-  height:60vh;
+  height: 60vh;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -313,7 +313,7 @@ section > p {
   section {
     flex-direction: column;
   }
-  .content h4{
+  .content h4 {
     text-align: center;
   }
   .catagory-1 > .text1 {
@@ -586,8 +586,49 @@ footer {
   header {
     width: 100vw;
   }
+  .header {
+    height: 15vh;
+  }
+  .header img {
+    width: 85px;
+    height: 74px;
+  }
   .content {
-    height: min-content;
-    justify-content: flex-start;
+    height: 55vh;
+    justify-content: first baseline;
+  }
+  .content h1 {
+    font-size: 4.5rem;
+  }
+  .content h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .content h5 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .content button {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .text3,
+  .text4 {
+    padding: 70px 0;
+  }
+  .nav {
+    width: 50%;
+  }
+
+  .text4 > h2,
+  .text4 > h3 {
+    font-size: 2.5rem;
+  }
+  .text3 > h2,
+  .text3 > h3 {
+    font-size: 3rem;
+  }
+  .nav ul li a {
+    font-size: 1.5rem;
   }
 }
