@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AJ Jewellery</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,15 +20,20 @@
       <div class="header">
         <img src="images/logo.png" alt="" />
         <div class="nav">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+
           <ul>
-            <li><a style="color: black" href="#">home</a></li>
-            <li><a href="#">jewellery</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">our client</a></li>
+            <li><a style="color: black" href="#header">home</a></li>
+            <li><a href="#jewellery">jewellery</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#clients">our client</a></li>
           </ul>
         </div>
       </div>
-      <div class="main-content row">
+      <div id="header" class="main-content row">
         <div class="content">
           <h1>jewellery</h1>
           <h4>Free Multipurpose Responsive</h4>
@@ -33,7 +45,7 @@
     </header>
     <!-- header section end -->
     <!--section start  -->
-    <section class="height">
+    <section id="jewellery">
       <div class="text">
         <div class="circle"></div>
         <h2>Best jewellery</h2>
@@ -59,10 +71,7 @@
         <img src="images/beimg.png" alt="" />
       </div>
       <div class="catagory row">
-        <img class="margin-right"
-          src="images/beimg2.png"
-          alt=""
-        />
+        <img class="margin-right" src="images/beimg2.png" alt="" />
         <div class="text2">
           <p>
             A reader will be distracted by the readable content of a page when
@@ -74,7 +83,7 @@
           <button>see more</button>
         </div>
       </div>
-      <div class="catagory-1 ">
+      <div class="catagory-1">
         <div class="text1">
           <p>
             A reader will be distracted by the readable content of a page when
@@ -90,7 +99,7 @@
     </section>
     <!--section end  -->
     <!--section1 start  -->
-    <section class="section1">
+    <section id="contact" class="section1">
       <div class="text">
         <h2>Request a call back</h2>
       </div>
@@ -118,7 +127,7 @@
     </section>
     <!--section1 end  -->
     <!-- section2 start -->
-    <section style="width: 80%; margin: auto">
+    <section id="clients" style="width: 80%; margin: auto">
       <div class="text" style="margin: 20px 0">
         <h2>Our Clients</h2>
       </div>
@@ -153,7 +162,7 @@
     <!-- section2 end -->
     <!-- footer section start -->
     <footer>
-      <div class="footer-content row ">
+      <div class="footer-content row">
         <div class="text3 row">
           <h3>Free Multipurpose Responsive</h3>
           <h2>Landing Page 2045</h2>
@@ -165,8 +174,7 @@
       </div>
     </footer>
     <div class="footer row">
-      <h3>© 2045 All Rights Reserved. By HTML.Design
-      </h3>
+      <h3>© 2045 All Rights Reserved. By HTML.Design</h3>
     </div>
     <!-- footer section end -->
   </body>
